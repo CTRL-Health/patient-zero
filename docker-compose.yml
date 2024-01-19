@@ -1,0 +1,10 @@
+version: '3.9'
+
+services: 
+  gateway:
+    image: "rust:1.75"
+    volumes:
+      - ./packages/gateway:/packages/gateway
+    environment:
+      - USER=akanimoh
+  
