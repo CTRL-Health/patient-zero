@@ -1,3 +1,25 @@
 .secret
 
-/packages/gateway/target
+packages/gateway/target
+
+
+packages/contracts/target/
+packages/contracts/**/*.rs.bk
+packages/contracts/Cargo.lock
+
+
+packages/contracts/ownable/target/
+packages/contracts/ownable/**/*.rs.bk
+packages/contracts/ownable/Cargo.lock
+
+packages/contracts/restrictable/target/
+packages/contracts/restrictable/**/*.rs.bk
+packages/contracts/restrictable/Cargo.lock
+
+packages/contracts/users/target/
+packages/contracts/users/**/*.rs.bk
+packages/contracts/users/Cargo.lock
+
+packages/contracts/access/target/
+packages/contracts/access/**/*.rs.bk
+packages/contracts/access/Cargo.lock
